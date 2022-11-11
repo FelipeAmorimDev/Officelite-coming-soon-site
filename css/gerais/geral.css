@@ -1,0 +1,31 @@
+body{
+  margin: 0px;
+  background-image: url("../../assets/home/bg-pattern-header.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right -208px top -400px;
+}
+
+h1,h2,h3,p{
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+ul,li{
+  padding: 0px;
+  margin: 0px;
+}  
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}

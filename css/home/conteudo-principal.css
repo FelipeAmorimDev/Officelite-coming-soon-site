@@ -1,0 +1,11 @@
+.conteudo-principal{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+
+.conteudo-principal-texto p{
+  margin: 24px 0px 32px 0px;
+}

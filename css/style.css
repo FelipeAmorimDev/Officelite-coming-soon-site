@@ -1,0 +1,15 @@
+/* Componentes */
+
+@import url("./componentes/tipografias.css");
+@import url("./componentes/cores.css");
+@import url("./componentes/componentes.css");
+
+/* Gerais */
+@import url("./gerais/geral.css");
+@import url("./gerais/header.css");
+
+
+/* Home */
+
+@import url("./home/conteudo-principal.css");
+@import url("./home/planos-container.css")
