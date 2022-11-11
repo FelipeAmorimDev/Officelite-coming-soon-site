@@ -1,5 +1,6 @@
 .header-container{
-  max-width: 1120px;
+  max-width: 1110px;
   margin: 0 auto;
   padding: 81px 20px;
+  box-sizing: border-box;
 }
