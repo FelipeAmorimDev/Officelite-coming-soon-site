@@ -6,8 +6,9 @@ body{
   background-image: url("../../assets/home/bg-pattern-header.svg");
   background-size: 1134px;
   background-repeat: no-repeat;
-  background-position: right -386px top -400px;
+  background-position: right -330px top -430px;
   background-color: #F2F2F2;
+  padding: 0px;
 }
 
 h1,h2,h3,p{

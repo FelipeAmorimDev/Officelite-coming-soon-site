@@ -1,21 +1,28 @@
 .conteudo-principal{ 
   display: grid;
-  grid-template-columns: minmax(330px,1fr) 1fr;
+  grid-template-columns: minmax(360px,1fr) minmax(auto,475px);
   max-width: 1110px;
-  padding: 0px 20px;
-  gap: 95px;
+  padding: 0px 0px;
+  gap: 80px;
   margin: 0 auto;
   box-sizing: border-box;
   align-items: center;
 }
 
+#titulo-principal{
+  max-width: 100ch;
+}
 
 .conteudo-principal-texto p{
   margin: 24px 0px 32px 0px;
 }
 
+.conteudo-principal-texto{
+  margin-left: 20px;
+}
 .conteudo-principal-texto a{
   box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+
 }
 
 @media (max-width:700px){
