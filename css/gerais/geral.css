@@ -1,9 +1,12 @@
+*{
+  transition: .3s;
+}
 body{
   margin: 0px;
   background-image: url("../../assets/home/bg-pattern-header.svg");
-  background-size: auto;
+  background-size: 1134px;
   background-repeat: no-repeat;
-  background-position: right -208px top -400px;
+  background-position: right 0px top -400px;
   background-color: #F2F2F2;
 }
 
