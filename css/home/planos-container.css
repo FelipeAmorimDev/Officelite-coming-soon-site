@@ -1,10 +1,10 @@
 .planos-container-bg {
 
   background-image: url("../../assets/home/bg-pattern-footer.svg"), linear-gradient(0deg, rgba(37, 41, 58, 1) 72%, #F2F2F2 72%);
-
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: left;
+  background-position: right 96px bottom -820px, left top;
+  background-repeat: no-repeat,no-repeat;
+  background-size: 2036,cover;
+  
 
 }
 
