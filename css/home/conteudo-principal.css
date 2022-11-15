@@ -1,7 +1,7 @@
 .conteudo-principal{ 
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  max-width: 1120px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 

@@ -4,34 +4,34 @@ body {
 }
 
 .botao1 {
-  padding: 14px 55px 14px 55px;
+  padding: 14px 41px 14px 40px;
   background-color: var(--cor-0);
   color: white;
   border-radius: 28px;
   font-family: 'Kumbh Sans', sans-serif;
-  line-height: 1.55;
+  line-height: 1.75;
   font-weight: 700;
   font-size: 1rem;
-}
+ }
 
 .botao2 {
-  padding: 14px 55px 14px 55px;
+  padding: 14px 41px 14px 40px;
   background: #E4EAFF;
   color: var(--cor-0);
   border-radius: 28px;
   font-family: 'Kumbh Sans', sans-serif;
-  line-height: 1.55;
+  line-height: 1.75;
   font-weight: 700;
   font-size: 1rem;
 }
 
 .botao3 {
-  padding: 14px 55px 14px 55px;
+  padding: 14px 41px 14px 40px;
   background-color: #fff;
   color: var(--cor-0);
   border-radius: 28px;
   font-family: 'Kumbh Sans', sans-serif;
-  line-height: 1.55;
+  line-height: 1.75;
   font-weight: 700;
   font-size: 1rem;
 }
