@@ -1,8 +1,11 @@
 .conteudo-principal{ 
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: minmax(330px,1fr) 1fr;
   max-width: 1110px;
+  padding: 0px 20px;
   margin: 0 auto;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 
@@ -12,4 +15,22 @@
 
 .conteudo-principal-texto a{
   box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+}
+
+@media (max-width:700px){
+  .conteudo-principal{ 
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .conteudo-principal picture{
+    order: -1;
+  }
+
+  .contador-card-item p.font-1-xxl{
+    font-size: 2rem;
+  }
+  .conteudo-principal{ 
+  text-align: center;
+  }
 }

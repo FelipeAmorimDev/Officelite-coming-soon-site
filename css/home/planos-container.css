@@ -1,53 +1,57 @@
-.planos-container-bg{
-  
-  background-image: url("../../assets/home/bg-pattern-footer.svg"), linear-gradient(0deg, rgba(37,41,58,1) 72%, #F2F2F2 72%);
- 
+.planos-container-bg {
+
+  background-image: url("../../assets/home/bg-pattern-footer.svg"), linear-gradient(0deg, rgba(37, 41, 58, 1) 72%, #F2F2F2 72%);
+
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left;
-  
+
 }
-.plano-container{
+
+.plano-container {
   box-sizing: border-box;
   max-width: 1110px;
+  padding: 0px 20px;
   margin: 0 auto;
 }
 
-.planos-list{
+.planos-list {
   display: flex;
   gap: 30px;
   text-align: center;
+
 }
 
 .planos-list .plano-item {
   background-color: white;
   border-radius: 13px;
-  flex:1 1 330px;
+  flex: 1 1 330px;
   padding: 40px 0px;
   box-sizing: border-box;
   box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
 }
 
-.plano-container .planos-list li.plano-item:nth-child(2){
+.plano-container .planos-list li.plano-item:nth-child(2) {
   background-color: var(--cor-0);
 }
 
 
-.plano-valor{
+.plano-valor {
   margin-top: 40px;
   margin-bottom: 56px;
 }
-.contador-cards-list{
+
+.contador-cards-list {
   display: flex;
-  
+
   gap: 20px;
 }
 
-.plano-beneficios p+p{
+.plano-beneficios p+p {
   margin-top: 16px;
 }
 
-.plano-item a{
+.plano-item a {
   margin-top: 46px;
 }
 
@@ -59,13 +63,88 @@
   padding-bottom: 91px;
 }
 
-.contador-card-item{
+.contador-card-item {
   text-align: center;
   background-color: var(--cor-1);
   border-radius: 13px;
   padding: 22px 17px;
 }
 
-.contador-card-item p+p{
+.contador-card-item p+p {
   opacity: .5;
+}
+
+@media (max-width:1000px) {
+  .planos-list {
+    flex-direction: column;
+    text-align: left;
+    margin-top: 100px;
+  }
+
+  .planos-list .plano-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    padding: 48px 68px 48px 48px;
+  }
+
+  .plano-item .plano-valor {
+    grid-area: 2/1;
+    margin: 0;
+  }
+
+  .plano-item .plano-beneficios {
+    
+    grid-row: 1/4;
+    align-self: center;
+   
+  }
+
+  .plano-item a.botao2,
+  .plano-item a.botao1,
+  .plano-item a.botao3 {
+    grid-area: 3/1;
+    margin: 0;
+    place-self: start;
+  }
+
+  .contador-lancamento {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+@media (max-width:700px) {
+  .planos-list .plano-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+
+  }
+
+  .plano-item .plano-valor {
+    grid-area: initial;
+
+  }
+
+  .plano-item .plano-beneficios {
+    grid-row: initial;
+  }
+
+  .plano-item a.botao2,
+  .plano-item a.botao1,
+  .plano-item a.botao3 {
+    grid-area: initial;
+    place-self: center;
+  }
+
+  .plano-beneficios {
+    margin-top: 56px;
+    margin-bottom: 32px;
+  }
+
+  .contador-card-item {
+    padding: 16px;
+    border-radius: 4px;
+  }
 }
