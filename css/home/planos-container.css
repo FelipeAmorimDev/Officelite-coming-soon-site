@@ -4,15 +4,15 @@
   background-position: right 96px bottom -820px, left top;
   background-repeat: no-repeat,no-repeat;
   background-size: 2036,cover;
-  padding: 0px 20px;
+  
   
 
 }
 
 .plano-container {
   box-sizing: border-box;
-  max-width: 1110px;
-  padding: 0px 0px;
+  max-width: 1150px;
+  padding: 0px 20px;
   margin: 0 auto;
 }
 
