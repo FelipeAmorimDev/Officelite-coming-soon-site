@@ -44,7 +44,8 @@
 
 .contador-cards-list {
   display: flex;
-
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -124,6 +125,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
+    padding: 48px 0px;
 
   }
 
@@ -152,4 +154,8 @@
     padding: 16px;
     border-radius: 4px;
   }
+}
+
+@media (max-width:360px){
+  
 }
