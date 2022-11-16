@@ -10,7 +10,7 @@
 }
 
 #titulo-principal{
-  max-width: 100ch;
+  max-width: 17ch;
 }
 
 .conteudo-principal-texto p{
@@ -37,7 +37,9 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
-
+  #titulo-principal{
+    max-width: initial;
+  }
   .conteudo-principal picture{
     order: -1;
   }

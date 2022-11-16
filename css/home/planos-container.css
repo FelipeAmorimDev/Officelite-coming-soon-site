@@ -87,6 +87,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
+    align-content: start;
+    gap: 24px;
+    flex: initial;
     padding: 48px 68px 48px 48px;
   }
 
