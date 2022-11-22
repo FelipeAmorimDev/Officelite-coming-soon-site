@@ -1,11 +1,14 @@
 *{
   transition: .3s;
 }
+::placeholder{
+  color:#747B95;
+}
 body{
   margin: 0px;
 }
 
-.bodypattern{
+.bodypattern-1{
   background-image: url("../../assets/home/bg-pattern-header.svg");
   background-size: auto;
   background-repeat: no-repeat;
@@ -39,4 +42,13 @@ a{
 
 button{
   border: none;
+}
+
+
+.mt1{
+  margin-top: 24px;
+}
+
+.mt2{
+  margin-top: 40px;
 }

@@ -10,6 +10,8 @@
 
 
 /* Home */
-
 @import url("./home/conteudo-principal.css");
-@import url("./home/planos-container.css")
+@import url("./home/planos-container.css");
+
+/* Sign-Up */
+@import url("./sign-up/sign_up-container.css");

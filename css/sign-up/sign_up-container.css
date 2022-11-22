@@ -1,0 +1,46 @@
+.sign_up-container {
+  max-width: 1150px;
+  margin: 45px auto 0px;
+  display: grid;
+  grid-template-columns: minmax(400px, 1fr) minmax(auto, 445px);
+  gap: 60px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.sign_up-container .info-container h1 {
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+
+.sign_up-container .contador-lancamento {
+  margin-top: 40px;
+  padding-bottom: 0px;
+}
+
+.sign_up-container .contador-card-item {
+  background-color: #EEF2FF;
+}
+
+.sign_up-container .formulario-container {
+  background-color: #fff;
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+  border-radius: 13px;
+  padding: 42px;
+}
+
+.sign_up-container .formulario-container form {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+.formulario-container form input,
+.formulario-container form select {
+  padding: 0px 16px 16px;
+  border: none;
+  border-bottom: 1px solid var(--cor-2);
+  outline:transparent;
+  font: inherit;
+  color: inherit;
+}
