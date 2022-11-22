@@ -16,6 +16,11 @@ body{
   background-color: #F2F2F2;
 }
 
+.bodypattern-2{
+  background: url("../../assets/sign-up/bg-pattern-side.svg") right -880px top -780px no-repeat, linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(37,41,58,1) 70%);
+  
+}
+
 h1,h2,h3,p{
   margin: 0px;
 }
@@ -51,4 +56,12 @@ button{
 
 .mt2{
   margin-top: 40px;
+}
+
+@media (max-width:900px){
+  .bodypattern-2{
+    background: url("../../assets/sign-up/bg-pattern-side.svg") center top 300px no-repeat, linear-gradient(180deg, rgba(255,255,255,1) 71%, rgba(37,41,58,1) 71%);
+    background-size: 1600px,auto;
+  }
+
 }
