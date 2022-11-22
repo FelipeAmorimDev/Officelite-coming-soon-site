@@ -3,12 +3,14 @@
 }
 body{
   margin: 0px;
+}
+
+.bodypattern{
   background-image: url("../../assets/home/bg-pattern-header.svg");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: right -364px top -430px;
   background-color: #F2F2F2;
-  padding: 0px;
 }
 
 h1,h2,h3,p{
@@ -33,4 +35,8 @@ a{
   text-decoration: none;
   color: inherit;
   display: inline-block;
+}
+
+button{
+  border: none;
 }

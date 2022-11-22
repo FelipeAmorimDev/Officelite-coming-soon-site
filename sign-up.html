@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 
-    <title>Frontend Mentor | Officelite coming soon site</title>
+  <title>Frontend Mentor | Officelite coming soon site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  Work smarter. Save time.
 
-  Easily manage your projects. Get on the list and receive in-app perks available only to 
-  early subscribers. We are moving into final development and getting ready for official launch soon.
+  <header class="header-container">
+    <a href="#"><img src="./assets/shared/logo.svg" alt="Officelite"></a>
+  </header>
 
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
+  <main class="main-container">
+    <section class="sign_up-container">
+      <div class="info-container">
+        <h1 class="font-1-xxl cor-1">Work smarter. Save time.</h1>
+        <p class="font-1-l cor-2">Easily manage your projects. Get on the list and receive in-app perks available only
+          to
+          early subscribers. We
+          are moving into final development and getting ready for official launch soon.</p>
 
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
+        <div class="contador-lancamento">
+          <div class="contador-cards">
+            <h3 class="font-1-s-b cor-6">Coming <span class="cor-0">4 Nov 2020</span></h3>
+            <ul class="contador-cards-list cor-6">
+              <li class="contador-card-item">
+                <p class="font-1-xxl">47</p>
+                <p>days</p>
+              </li>
+              <li class="contador-card-item">
+                <p class="font-1-xxl">07</p>
+                <p>hours</p>
+              </li>
+              <li class="contador-card-item">
+                <p class="font-1-xxl">56</p>
+                <p>min</p>
+              </li>
+              <li class="contador-card-item">
+                <p class="font-1-xxl">14</p>
+                <p>sec</p>
+              </li>
+            </ul>
+          </div>
 
-  Name
-  Email Address
-  Basic Pack Free
-  Basic Pack Free
-  Pro Pack $9.99
-  Ultimate Pack $19.99
-  Phone Number
-  Company
-  Get on the list
+        </div>
+
+      </div>
+
+      <div class="formulario-container">
+        <form action="">
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="email" name="email" id="email" placeholder="Email Address">
+          <select name="plans" id="plans-list">
+            <option value="basic">Basic Pack Free</option>
+            <option value="pro">Pro Pack $9.99</option>
+            <option value="pro">Ultimate Pack $19.99</option>
+          </select>
+          <input type="tel" name="phonenumber" id="phonenumber" placeholder="Phone Number">
+          <input type="text" name="company" id="company" placeholder="Company">
+          <button class="botao1">Get on the list</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
 </body>
+
 </html>
