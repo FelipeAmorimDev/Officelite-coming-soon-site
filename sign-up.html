@@ -17,7 +17,7 @@
 <body class="bodypattern-2">
 
   <header class="header-container">
-    <a href="#"><img src="./assets/shared/logo.svg" alt="Officelite"></a>
+    <a href="index.html"><img src="./assets/shared/logo.svg" alt="Officelite"></a>
   </header>
 
   <main class="main-container">
@@ -58,22 +58,23 @@
 
       <div class="formulario-container">
         <form action="" class="font-1-s">
-          <input type="text" name="name" id="name" placeholder="Name">
-          <input type="email" name="email" id="email" class="mt1" placeholder="Email Address">
+          <input type="text" name="name" id="name" placeholder="Name" class="" required>
+          <input type="email" name="email" id="email" class="mt1" placeholder="Email Address"required>
           <select name="plans" id="plans-list" class="mt1">
             <option value="basic">Basic Pack Free</option>
             <option value="pro">Pro Pack $9.99</option>
             <option value="pro">Ultimate Pack $19.99</option>
           </select>
-          <input type="tel" name="phonenumber" id="phonenumber" class="mt1" placeholder="Phone Number">
-          <input type="text" name="company" id="company" class="mt1" placeholder="Company">
+          <input type="tel" name="phonenumber" id="phonenumber" class="mt1" placeholder="Phone Number" required>
+          <input type="text" name="company" id="company" class="mt1" placeholder="Company" required>
           <button class="botao1 mt2">Get on the list</button>
         </form>
       </div>
     </section>
   </main>
 
-  <script src="./script/script.js"></script>
+  <script src="./script/countdown.js"></script>
+  <script src="./script/validform.js"></script>
 </body>
 
 </html>

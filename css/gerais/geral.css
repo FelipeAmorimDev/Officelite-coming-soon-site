@@ -1,9 +1,6 @@
-*{
-  transition: .3s;
-}
-
 ::placeholder{
   color:#747B95;
+  opacity: .5;
 }
 
 body{
@@ -36,6 +33,8 @@ a{
 
 button{
   border: none;
+  transition: .3s;
+  cursor: pointer;
 }
 
 .bodypattern-1{
