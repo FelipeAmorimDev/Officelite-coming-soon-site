@@ -84,7 +84,9 @@
     text-align: left;
     margin-top: 100px;
   }
-
+  .contador-card-item {
+    min-width: 67px;
+  }
   .planos-list .plano-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -154,10 +156,13 @@
     margin-top: 56px;
     margin-bottom: 32px;
   }
-
+  .contador-cards-list {
+  gap: 10px;
+  }
   .contador-card-item {
     padding: 16px;
     border-radius: 4px;
+    min-width: 40px;
   }
 }
 

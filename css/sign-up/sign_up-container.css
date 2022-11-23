@@ -56,6 +56,7 @@
   .sign_up-container .formulario-container {
 
     margin: 0 auto 126px;
+    width: calc(100% - 84px);
   }
 
   .sign_up-container .info-container p {
