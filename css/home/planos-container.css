@@ -70,6 +70,8 @@
   background-color: var(--cor-1);
   border-radius: 13px;
   padding: 22px 17px;
+  min-width: 68px;
+  
 }
 
 .contador-card-item p+p {

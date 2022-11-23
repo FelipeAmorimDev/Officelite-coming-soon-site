@@ -2,7 +2,7 @@
   max-width: 1150px;
   margin: 45px auto 0px;
   display: grid;
-  grid-template-columns: minmax(400px, 1fr) minmax(auto, 445px);
+  grid-template-columns: minmax(468px, 1fr) minmax(auto, 445px);
   gap: 60px;
   padding: 0px 20px;
   box-sizing: border-box;

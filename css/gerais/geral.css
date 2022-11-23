@@ -1,24 +1,13 @@
 *{
   transition: .3s;
 }
+
 ::placeholder{
   color:#747B95;
 }
+
 body{
   margin: 0px;
-}
-
-.bodypattern-1{
-  background-image: url("../../assets/home/bg-pattern-header.svg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: right -364px top -430px;
-  background-color: #F2F2F2;
-}
-
-.bodypattern-2{
-  background: url("../../assets/sign-up/bg-pattern-side.svg") right -880px top -780px no-repeat, linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(37,41,58,1) 70%);
-  
 }
 
 h1,h2,h3,p{
@@ -49,6 +38,17 @@ button{
   border: none;
 }
 
+.bodypattern-1{
+  background-image: url("../../assets/home/bg-pattern-header.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right -364px top -430px;
+  background-color: #F2F2F2;
+}
+
+.bodypattern-2{
+  background: url("../../assets/sign-up/bg-pattern-side.svg") right -880px top -780px no-repeat, linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(37,41,58,1) 70%);
+}
 
 .mt1{
   margin-top: 24px;
