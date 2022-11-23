@@ -30,6 +30,9 @@
 
 .plano-container .planos-list li.plano-item:nth-child(2) {
   background-color: var(--cor-0);
+  background-image: url("../../assets/home/bg-pattern-pricing.svg");
+  background-size: auto;
+  background-position: center -378px;
 }
 
 
@@ -69,6 +72,12 @@
   min-width: 68px;
   
 }
+.contador-card-item p{
+  transition: opacity .3s ease-in-out;
+}
+.transparente {
+  opacity: 0!important;
+}
 
 .contador-card-item p+p {
   opacity: .5;
@@ -83,15 +92,23 @@
   .contador-card-item {
     min-width: 67px;
   }
+  .plano-container .planos-list li.plano-item:nth-child(2) {
+    background-position:-300px;
+    background-repeat: no-repeat;
+  }
   .planos-list .plano-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
     align-content: start;
-    gap: 24px;
+        gap: 24px;
     flex: initial;
     padding: 48px 68px 48px 48px;
   }
+
+  /* .planos-list .plano-item p.font-1-xxl{
+    text-align: center;
+  } */
 
   .plano-item .plano-valor {
     grid-area: 2/1;
@@ -131,7 +148,11 @@
     padding: 48px 0px;
 
   }
-
+ 
+  .plano-container .planos-list li.plano-item:nth-child(2) {
+    background-position: center bottom;
+    
+  }
   .plano-item .plano-valor {
     grid-area: initial;
 

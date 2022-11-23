@@ -20,11 +20,15 @@ function renderDataLancamento(){
 
 function countdownRender(){
   var parsedCountdown = contdownConverted()
+  var elementosTransparente = document.querySelectorAll(".contador-card-item p")
   const timeElements = document.querySelectorAll(".contador-cards-list p.font-1-xxl")
   timeElements.forEach((value,index) =>{
     value.innerHTML = parsedCountdown[index]
+    
   })
-
+  elementosTransparente.forEach((item) => {
+    item.classList.remove("transparente")
+  })
 }
 
 function contdownConverted(){

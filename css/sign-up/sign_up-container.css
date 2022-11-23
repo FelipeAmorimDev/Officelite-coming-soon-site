@@ -45,6 +45,10 @@
   color: inherit;
   }
 
+  .formulario-container form select,select option{
+    font-weight: 700;
+  }
+
 .erroralert{
   background-image: url("../../assets/sign-up/icon-cross.svg");
   background-repeat: no-repeat;

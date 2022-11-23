@@ -5,7 +5,7 @@ const buttonSubmit = document.querySelector(".formulario-container button.botao1
 function checkInputs(event) {
   var inputValid = 0;
   formInput.forEach((item, index) => {
-   
+
     if (item.classList.contains("erroralert")) {
       item.classList.remove("erroralert")
     }
@@ -29,17 +29,14 @@ function checkInputs(event) {
         inputValid++
       }
     }
-    if(inputValid == 4){
-      alert("Cadastro efetuado com sucesso!")
+    if (inputValid == 4) {
+      alert("Reserva efetuada com sucesso!")
     }
 
     item.addEventListener("focus", () => {
       item.classList.remove("erroralert")
     }
     )
-
-    
-
   })
 }
 
